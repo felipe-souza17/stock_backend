@@ -19,7 +19,7 @@ public class ControleEstoqueApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") 
-                        .allowedOrigins("*") 
+                        .allowedOrigins("https://controleestoque-ecru.vercel.app/", "https://controleestoque-gacw3wx3y-felipesouza17s-projects.vercel.app/") 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") 
                         .allowedHeaders("*")
                         .allowCredentials(true); 
